@@ -82,11 +82,11 @@ collections:
 
 # BUILD SETTINGS
 markdown: kramdown
+remote_theme: type-on-strap
 highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-theme: minima
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
